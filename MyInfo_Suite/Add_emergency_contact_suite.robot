@@ -17,7 +17,7 @@ Valid Credential Test
    Click Element    xpath=//a[contains(text(),'Emergency Contacts')]
    Click Element    xpath=//input[@id='btnAddContact']
    Input Text    id=emgcontacts_name    Divya
-   Input Text    id=emgcontacts_relationship    Myself
+    Input Text    id=emgcontacts_relationship    Myself
    Input Text    id=emgcontacts_homePhone    9687452134
    Input Text    id=emgcontacts_mobilePhone    9685412347
    Input Text    id=emgcontacts_workPhone    044-584-148
