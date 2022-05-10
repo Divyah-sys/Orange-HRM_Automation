@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation           This suite will handle valid credential
+Documentation           This suite will handle emergency contact
 ...       test    TC_OH2
 
 Resource  ../Resource/common functionality.resource
@@ -8,7 +8,7 @@ Test Setup   Link Browser
 
 
 *** Test Cases ***
-Valid Credential Test
+Emergency Contact Test
    Input Text    id=txtUsername    Admin
   Input Password    id=txtPassword    admin123
   Click Element    id=btnLogin
